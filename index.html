@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Puzzle</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="application.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td>8</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td class="empty">0</td>
+      <td>1</td>
+    </tr>
+  </table>
+
+  <button id="callgreedy" class="btn btn-primary">Solve with Greedy algo</button>
+  <button id="callbfs" class="btn btn-primary">Solve with BFS algo</button>
+  <!-- <button id="play" class="btn btn-primary">Fetch data</button> -->
+
+  <div class="hint">
+    <p>
+      Reorder the tiles by ascending order. Good luck!
+    </p>
+  </div>
+  <script src="lib/puzzle.js"></script>
+</body>
+</html>
